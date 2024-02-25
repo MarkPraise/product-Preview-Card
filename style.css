@@ -97,9 +97,8 @@ span[id="cart-Logo"]{
 @media(min-width:375px){
     .product{
         flex-direction: row;
-        max-width: 700px;
-        border: 2px solid red;
-        height: 50vh;
+        max-width: 600px;
+        min-height: 50vh;
     }
     .product>*{
         width: 50%;
@@ -107,8 +106,12 @@ span[id="cart-Logo"]{
     .product img{
         object-fit: cover;
         height: 100%; 
-    }
+    }   
     .product-info{
-        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+    .product-info p{
+        max-width: 18rem;
+        line-height: 1.4;
     }
 }
