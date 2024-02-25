@@ -67,7 +67,7 @@ h2,.price>li:nth-of-type(1){
     border-radius:2px;
     text-decoration: none;
     transition: background-color 500ms cubic-bezier(0.92, 0.83, 0.69, 0.76);
-   
+   font-weight: 700;
 }
 .product-info button:hover, .product-info button:focus{
     background-color: hsl(158, 34%, 24%);
