@@ -30,6 +30,7 @@ body{
     flex-direction: column;
     gap:.8rem;
     font-weight: 500;
+    color: hsl(212, 21%, 14%);
 }
 .product-info h1{
     letter-spacing: 2px;
@@ -40,11 +41,9 @@ h2,.price>li:nth-of-type(1){
     font-weight: 700;
     font-size: 1.5rem;
 }
-.product-info{
-    color: hsl(212, 21%, 14%);
-}
 .product-info p{
     word-spacing: .3rem;
+    line-height: 1.4;
 }
 .price>li:nth-of-type(1){
     color: hsl(158, 36%, 37%);
@@ -101,7 +100,7 @@ span[id="cart-Logo"]{
         min-height: 50vh;
     }
     .product>*{
-        width: 50%;
+        min-width: 50%;
     }
     .product img{
         object-fit: cover;
@@ -112,6 +111,5 @@ span[id="cart-Logo"]{
     }
     .product-info p{
         max-width: 18rem;
-        line-height: 1.4;
     }
 }
